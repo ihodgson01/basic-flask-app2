@@ -1,4 +1,4 @@
-#!/home/karl/Documents/python/basic-flask-app2/venv/bin/python
+#!/home/student/Documents/python/basic-flask-app2/venv/bin/python
 
 import sys
 import getopt

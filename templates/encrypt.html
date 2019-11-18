@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<form method="POST" action="/encrypt">
+    {{ form.csrf_token }}
+    {{ form.message.label }} {{ form.message(size=20) }}
+    {{ form.shift.label }} {{form.shift(size=20) }}
+    <input type="submit" value="Go">
+</form>
+
+
+{% endblock %}
